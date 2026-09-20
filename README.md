@@ -30,7 +30,7 @@ df = pd.read_csv('jobs_in_data.csv')
 df_US = df[df['company_location'] == 'United States']
 df_US.head()
 ```
-![df_US_head table visualization](salary_analysis\images\df_US_head.png)
+![df_US_head table visualization](salary_analysis/images/df_US_head.png)
 
 
 Getting initial insights in our dataset.
