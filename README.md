@@ -103,7 +103,7 @@ plt.suptitle('Mean Salary of Top 3 Data Jobs Based on Work Setting in the United
 plt.tight_layout()
 plt.show()
 ```
-![Data Visualization](images\mean_work_setting.png)
+![Data Visualization](salary_analysis/images/mean_work_setting.png)
 
 ### Insights
 - Data Science & Research: In-person positions lead with a peak mean salary of ~$175K. Remote and hybrid models follow closely, showing strong salary resilience despite increased flexibility.
@@ -133,9 +133,9 @@ for work in setting_work:
         ax[i].legend(loc='upper right', bbox_to_anchor=(1.2,0.5))
     plt.suptitle(f'Distribution of Experience Level in {work} Work Setting for Top 3 Data Job Titles', y=0.75, fontsize=20)
 ```
-![Wahah](images/df_dist_hybrid.png)
-![Wahah](images/df_dist_inperson.png)
-![Wahah](images/df_dist_remote.png)
+![Wahah](salary_analysis/images/df_dist_hybrid.png)
+![Wahah](salary_analysis/images/df_dist_inperson.png)
+![Wahah](salary_analysis/images/df_dist_remote.png)
 
 ### Insights
 - Hybrid models are heavily populated by junior-level experience tiers, dragging down the segment's overall mean salary.
@@ -168,7 +168,7 @@ plt.suptitle('Average Salary of Top 3 Data Job Categories Based on Experience Le
 plt.tight_layout()
 plt.show()
 ```
-![Mean for different experience level](images\mean_exp_level.png)
+![Mean for different experience level](salary_analysis/images/mean_exp_level.png)
 
 ### Insights
 - The Data Analysis track holds the lowest average salary at every career stage (Entry, Mid, Senior, Executive).
@@ -197,9 +197,9 @@ for job in top_3_job:
     ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x,pos: f'${int(x/1000)}K'))
     plt.show()
 ```
-![whah](images\salary_dist_DS.png)
-![whah](images\salary_dist_DE.png)
-![whah](images\salary_dist_DA.png)
+![whah](salary_analysis/images/salary_dist_DS.png)
+![whah](salary_analysis/images/salary_dist_DE.png)
+![whah](salary_analysis/images/salary_dist_DA.png)
 
 ### Insights
 - Data Science and Research
